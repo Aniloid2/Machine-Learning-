@@ -13,10 +13,10 @@ Nb = 1000
 
 
 mean = [-1, 4]
-cov = [[1, -5], [2, 10]] 
+cov = [[10, -3], [-3, 3]] 
 
 mean2 = [5, 1]
-cov2 = [[5, 10], [2, 5]]
+cov2 = [[-5, 2], [2, 6]]
 x, x1 = np.random.multivariate_normal(mean, cov, Na).T
 x2, x3 = np.random.multivariate_normal(mean2, cov2, Nb).T
 
